@@ -1,0 +1,84 @@
+#background{
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    min-width: 100%; 
+    min-height: 100%;
+    overflow: hidden;
+    z-index: -2;
+}
+
+#body{
+
+    background-color: transparent;
+    padding-top: 173px;
+    width:80%;
+    min-width:400px;
+    max-width:700px;
+    margin: 0 auto;
+    
+    display: grid;
+    grid-gap: 6%;
+    grid-template-rows: 150px 200px;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    align-content: center;
+ 
+}
+
+h1{
+    padding:auto;
+    text-align: center;
+    text-transform: uppercase;
+    text-emphasis: bold;
+}
+
+.button{
+    
+    width: 200px;
+    height: 150px;
+    padding-top: 58%;
+    background: linear-gradient(transparent 85%, white);
+
+    border-bottom: 5px solid black;
+    color:black;   
+}
+
+
+#music{
+    background: linear-gradient(transparent 75%, rgb(255,200,0));
+}
+#fashion{
+    background: linear-gradient(transparent 75%,rgb(0,180,100));
+}
+#events{
+    background: linear-gradient(transparent 75%, rgb(220,0,50));
+}
+#personal{
+    background: linear-gradient(transparent 75%, rgb(20,0,200));
+}
+
+
+
+#music:hover{
+    background: linear-gradient(transparent 50%, rgb(255,200,0));
+}
+#fashion:hover{
+    background: linear-gradient(transparent 50%,rgb(0,180,100));
+}
+#events:hover{
+    background: linear-gradient(transparent 50%,  rgb(220,0,50));
+}
+#personal:hover{
+    background: linear-gradient(transparent 50%, rgb(20,0,200));
+}
+
+
+
+
+
+
+

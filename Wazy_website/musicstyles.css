@@ -1,0 +1,132 @@
+p{
+    font-weight: bold;
+    color:grey;
+}
+
+
+#header{
+    
+    background-color: transparent;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    height:111px;
+    min-width:830px;
+    z-index: 1;
+    margin: 0 auto;
+    padding-top: 0;
+    
+}
+
+#header h1{
+
+    text-align: left;
+}
+#title{
+    background-color: black;
+    width: 100%;
+    margin-left: 300px;
+    height: 75px;
+}
+
+#title a h1{
+   margin-left: 20%;
+    padding-top: 15px;
+}
+#header h1{
+    color:white;
+}
+
+
+#body{
+    padding-top: 115px; /*size of heading */
+    background-color: white;
+    width:100%;
+    min-width:400px;
+    padding-bottom: 40px;
+}
+#currentsong img{
+    width:75px;
+    display: inline;
+}
+#songnamediv{
+    display: inline-block;
+    height: inherit;
+    vertical-align:middle;
+}
+#currentsong p{
+    color: white;
+    text-align: center;
+    display: inline-block;
+       
+}
+#currentsong{
+    position: fixed;
+    z-index: 5;
+    top:0;
+    height: 75px;
+    width:300px;
+    color: white;
+    background-color: rgb(30,30,30);
+}
+
+#audiobar{
+    position: fixed;
+    top:75px;
+    z-index: 99;
+    background-color:white;
+    width:100%;
+    border-bottom:1px solid rgb(244,244,244);
+}
+
+a:hover{
+    text-decoration: grey underline;
+}
+
+table{
+
+    width:500px;
+    margin: 0 auto;
+}
+
+td{
+    padding-bottom: 15px;
+    vertical-align: top;
+    border-bottom: 1px solid rgb(244,244,244);
+}
+.albumcover{
+    width: 200px;
+    min-height: 300px;
+}
+
+.songs{
+    padding-left: 5%;
+
+}
+
+img{
+    width: 75%;
+}
+
+#songs{
+    border: 1px solid red;
+    width: 69%;
+    height:100%;
+    padding-left: 10%;
+    overflow:hidden;
+    height: 100%;
+}
+
+#footer{
+    background-color: white;
+}
+
+#trademark, #icwtext{
+    
+    color:black;
+}
+
+
+
+

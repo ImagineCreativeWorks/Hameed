@@ -1,0 +1,31 @@
+
+a{
+ 
+    color:white;
+
+}
+img{
+    width:100%;
+}
+#body{
+    padding-top:75px;
+    background-color: black;
+    color:white;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+#content{
+    width:475px;
+    margin: 0 auto;
+}
+#eventbrite{
+    position: fixed;
+    top:100px;
+    left: 100px;
+    border: 3px solid white;
+    border-radius: 4px;
+}
+
+    
+    

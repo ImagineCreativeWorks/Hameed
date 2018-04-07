@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title> Wazyfamily </title>
+        <meta name="description" content="Wazy Family Website.">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="musicstyles.css">
+        
+        
+    </head>
+    
+    
+   <body>
+       
+        
+       
+        <div id='header'>
+            <div id='title'><a href="home.html"><h1>Wazyfamily</h1></a></div>
+            
+            <div id='currentsong'>
+                <img id='currentsongcover' onclick="changeSong()" src="resource/album_art/regular.jpg"/>
+                <div id='songnamediv'><p id='songname'>Regular ft.CDQ</p></div>
+            </div>
+            <div id='audiobar'>     
+                <audio controls id='audioplayer' >
+                        <source src="resource/songs/Hameed%20Idowu%20feat.%20CDQ%20-%20Regular.mp3">
+                </audio>
+            </div>
+            
+        </div>
+
+ 
+        <div id='body'> 
+            
+            <script>
+                
+            function changeSong(songCover, songaudio, songname){
+                document.getElementById('currentsongcover').src = songCover;
+                document.getElementById('audioplayer').src = songaudio;
+                document.getElementById('audioplayer').autoplay = true;
+                document.getElementById('songname').innerHTML = songname;
+            }
+            
+        </script>
+            
+            
+            <table id='albums'> 
+                <tr >
+                    <td class="albumcover">
+                        <img src='resource/album_art/metanoiaii.jpg' />
+                        <h4> Metanoia II</h4>
+                        <p> 2016</p>
+                    </td>
+                    <audio src="resource/songs/y2mate.com%20-%20hameed_never_know_BgBaUwBIwjg.mp3"></audio>
+                    <td class='songs'>
+                        
+                        <h2> Metanoia II</h2>
+                        <br/>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoiaii.jpg','resource/songs/y2mate.com%20-%20hameed_pre_existence_ZHiHHNo65bM.mp3','Pre Existance')"><p>Pre Existance</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoiaii.jpg','resource/songs/Hameed%20Idowu%20feat.%20CDQ%20-%20Regular.mp3','Regular')"><p>Regular</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoiaii.jpg','resource/songs/Hameed%20Idowu%20-%20Erekere%20(unofficial%20video).mp3','Erekere')"><p>Erekere</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoiaii.jpg','resource/songs/y2mate.com%20-%20hameed_never_know_BgBaUwBIwjg.mp3','Never Know')"><p>Never Know</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoiaii.jpg','resource/songs/y2mate.com%20-%20hameed_tell_the_truth_wPPghlpZc18.mp3','Tell the Truth')"><p>Tell the Truth</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoiaii.jpg','resource/songs/y2mate.com%20-%20hameed_kurolono_prod_by_willbeatz_W5iCMvYpoJQ.mp3','Kurolono')"><p>Kurolono</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoiaii.jpg','resource/songs/y2mate.com%20-%20hameed_letoyen_b05cN3GOSwI.mp3','Letoyen')"><p>Letoyen</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoiaii.jpg','resource/songs/y2mate.com%20-%20hameed_one_day_3CrelzjpWZs.mp3','One Day')"><p>One Day</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoiaii.jpg','resource/songs/y2mate.com%20-%20hameed_superstar_outro_prod_by_willbeatz_is7CWn4XKGM.mp3','Super Star')"><p>Super Star</p> </a>
+                        
+                      
+                        
+                        
+                    </td>
+                </tr>
+                
+                 <tr >
+                    <td class="albumcover">
+                        <img src='resource/album_art/metanoia.JPG' />
+                        <h4> Metanoia</h4>
+                        <p> 2016</p>
+                    </td>
+                    
+                    <td class='songs'>
+                        
+                        <h2> Metanoia </h2>
+                        <br/>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoia.jpg','resource/songs/y2mate.com%20-%20hameed_bad_man_ft_ishy_ish_unofficial_video_oeJpRd38EuI.mp3','BadMan Ft Ishyish')"><p> BadMan Ft Ishyish</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoia.jpg','resource/songs/y2mate.com%20-%20hameed_the_motive_95Pna-_b1Sk.mp3','The Motive')"><p> The Motive</p> </a>
+                  
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoia.jpg','resource/songs/y2mate.com%20-%20hameed_summer_time_dAn1yhOznbU.mp3','Summertime')"><p>Summertime</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoia.jpg','resource/songs/y2mate.com%20-%20hameed_birthday_suit_VY-6Sk3YMeU.mp3',' Birthday suit')"><p> Birthday suit</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/metanoia.jpg','resource/songs/y2mate.com%20-%20hameed_pass_me_da_lighter_ft_jay_cube_6ziPnB5xycY.mp3','Pass me the lighter')"><p> Pass me the lighter ft Jaycube</p> </a>
+                        
+
+                            
+                    </td>
+                </tr>
+                
+                <tr >
+                    <td class="albumcover">
+                        <img src='resource/album_art/beyond.jpg' />
+                        <h4> Beyond</h4>
+                        <p> 2017</p>
+                    </td>
+                    
+                    <td class='songs'>
+                        
+                        <h2>Beyond</h2>
+                        <br/>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/beyond.jpg','resource/songs//Hameed%20idowu%20BEYOND%20%20Backyard%20video%20(Unofficial%20video).mp3','Beyond')"><p> Beyond</p> </a>
+                            
+                    </td>
+                </tr>
+                <tr >
+                    <td class="albumcover">
+                        <img src='resource/album_art/wazyfamily.jpg' />
+                        <h4> Wazy Family</h4>
+                        <p> 2017</p>
+                    </td>
+                    
+                    <td class='songs'>
+                        
+                        <h2>Wazy Family</h2>
+                        <br/>
+
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/wazyfamily.jpg','resource/songs/Hameed%20-%20Janky.mp3','Janky')">  <p>Janky ft. Todi</p>  </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/wazyfamily.jpg','resource/songs/Hameed%20-%20Juggers%20Ft%20Tadi%20Montana,%20Lama.mp3','Juggers')">   <p>Juggers ft. Todi, Lama, WillBeatz</p>  </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/wazyfamily.jpg','resource/songs/Hameed%20-%20Control%20X.mp3','Control X')">   <p>Control X</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/wazyfamily.jpg','resource/songs/Hameed%20-%20Lost%20Souls.mp3','Lost Soles')">   <p>Lost Souls</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/wazyfamily.jpg','resource/songs/Hameed%20-%20Favorite%20Song.mp3','Favorite Song')">   <p>Favorite Song</p> </a>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/wazyfamily.jpg','resource/songs/Hameed%20-%20Family.mp3','Family')">    <p>Family</p> </a>
+                        
+                    
+                       
+                        
+                       
+                    </td>
+                </tr>
+                
+                <tr >
+                    <td class="albumcover">
+                        <img src='resource/album_art/dancer.jpg' />
+                        <h4> Dancer</h4>
+                        <p> 2017</p>
+                    </td>
+     
+                    <td class='songs'>
+                        
+                        <h2> Dancer</h2>
+                        <br/>
+                        
+                         <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/dancer.jpg','resource/songs/y2mate.com%20-%20dancer_ITH6hEM6OtQ.mp3','Dancer')">  <p>Dancer</p>   </a>
+                <audio src="resource/songs/"></audio>
+                        
+                    </td>
+                </tr>
+        
+                
+                <tr >
+                    <td class="albumcover">
+                        <img src='resource/album_art/wazy.jpg' />
+                        <h4> Wazy</h4>
+                        <p> 2016</p>
+                    </td>
+                    
+                    <td class='songs'>
+                        <h2>Wazy</h2>
+                        <br/>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/wazy.jpg','resource/songs/y2mate.com%20-%20wazy_lgaTIDhG4xY.mp3','Wazy')">   <p>Wazy</p>  </a>
+                
+                    </td>
+                </tr>
+                <tr >
+                    <td class="albumcover">
+                        <img src='resource/album_art/regular.jpg' />
+                        <h4> Regular</h4>
+                        <p> 2016</p>
+                    </td>
+                    
+                    <td class='songs'>
+                        <h2> Regular</h2>
+                        <br/>
+                        
+                        <a href="JavaScript:void(0)" onClick="changeSong('resource/album_art/regular.jpg','resource/songs/Hameed%20Idowu%20feat.%20CDQ%20-%20Regular.mp3','Regular')">  <p>Regular ft. CDQ</p>  </a>
+                        
+                    </td>
+                </tr>        
+            </table>
+        </div>
+       
+             <div id='footer'>
+            
+                <a href="http://www.icwks.com/" id='icwtext'> powered by: Imagine Creative Works </a> 
+                <span id='trademark'> wazyfamily ©  2018 </span> 
+
+                <a href="https://www.youtube.com/user/1hameed"> <img src="resource/icons/youtube.png" class="icon"/> </a>
+                <a href="https://www.facebook.com/george.idowu"> <img src="resource/icons/facebook.png" class="icon"/></a>
+                <a href="https://www.instagram.com/simplyhameed/?hl=en"> <img src="resource/icons/instagram.png" class="icon"/></a>
+                <a href="https://itunes.apple.com/us/album/regular-feat.-cdq-single/id1138903142"><img src="resource/icons/applemusic.png" class="icon"/></a>
+                <a href="https://www.amazon.com/Regular-feat-Explicit-Hameed-Idowu/dp/B01JD1ZK1K"><img src="resource/icons/amazon.png" class="icon"/></a>
+                <a href="https://open.spotify.com/artist/2qyi29uHI6UryMw1IJiy9b"> <img src="resource/icons/spotify.png" class="icon"/></a>
+                <a href="https://soundcloud.com/simplyhameed"> <img src="resource/icons/soundcloud.png" class="icon"/></a>
+            </div>
+        
+    </body>
+    
+</html>

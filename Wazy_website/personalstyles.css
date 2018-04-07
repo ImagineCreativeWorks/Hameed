@@ -1,0 +1,29 @@
+
+#body{
+    padding-top: 75px;
+    background-color: black;
+    width: 450px;
+    align-content: center;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+img{
+    width:100%;
+}
+p {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img{
+    display: block;
+}
+
+h3{
+    margin: 10px;
+}
