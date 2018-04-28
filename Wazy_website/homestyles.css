@@ -47,6 +47,22 @@ h1{
     color:black;   
 }
 
+.video-responsive {
+	padding-bottom: 56.25%;
+	position: relative;
+	width: 100%;
+}
+
+.canvas,
+.video {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	background: #000;
+	z
+
 
 #music{
     background: linear-gradient(transparent 75%, rgb(255,200,0));
