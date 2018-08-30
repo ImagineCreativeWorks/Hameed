@@ -1,65 +1,49 @@
 * {
-    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:sans-serif;
-    
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-h1,h2,h3{
-    
-    font-family: serif;
-    
+h2 {
+  font-family: 'Monoton', cursive;
 }
 
 
 html{
     height: 100%;
-    
 }
-
 body{
-    
-    background-color:white;
-    height: 100%;
-    width:100%;
-    padding-bottom: 200px;
+    background-color:black;
+    /* height: 100%;
+    width:100%; */
 }
 
 #header h1{
-    
     padding:auto;
     text-align: center;
     text-transform: uppercase;
     text-emphasis: bold;
 }
-
 a{
-    
     text-decoration: none;
-    
 }
 
 #header a{
-    
     color:white;
     text-decoration: none;
-    
 }
+
 .icon{
-    
-    float:right;
-    width: 35px;
-    margin: 5px;
+    width: 28px;
+    margin: 3px;
 }
 
-
-
+.h500 {
+  max-height: 500px
+}
 
 #header{
-    
-
     background-color: black;
     color:white;
     position: fixed;
@@ -72,43 +56,54 @@ a{
     z-index: 1;
     margin: 0 auto;
     padding-top: 15px;
-    
 }
 
-
-#footer{
-
-    background-color: black;
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height:40px;
-    width:100%;
-    min-width:400px;
-    overflow:hidden;
-    text-align: center;
-   
-    
+#footer {
+  background-color: black;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  height:10vh;   /* Height of the footer */
 }
 
-#trademark{
-    
-    line-height: 50px;
-    display: inline-block;
-    vertical-align:middle;
-    color:lightgray;
-    
+#music{
+    background: linear-gradient(transparent 85%, yellow);
+    color: white;
+    font-size: 13px;
 }
-#icwtext{
-    
-    line-height: 50px;
-    display: inline-block;
-    display: inline;
-    float:left;
-    color:lightgray;
-    vertical-align:middle;
-
-    
+#fashion{
+    background: linear-gradient(transparent 85%, lawngreen);
+    color: white;
+    font-size: 13px;
+}
+#events{
+    background: linear-gradient(transparent 85%, indianred);
+    color: white;
+    font-size: 13px;
+}
+#personal{
+    background: linear-gradient(transparent 85%, deepskyblue);
+    color: white;
+    font-size: 13px;
 }
 
+#music:hover{
+  color: yellow;
+  text-decoration: none !important;
+}
+#fashion:hover{
+    color: lawngreen;
+    text-decoration: none !important;
+}
+#events:hover{
+    color: indianred;
+    text-decoration: none !important;
+}
+#personal:hover{
+    color: deepskyblue;
+    text-decoration: none !important;
+}
+
+.navbar-dark .navbar-toggler {
+  border: 0;
+}

@@ -1,28 +1,47 @@
-#background{
-    
-    position: fixed;
+/* #background{
+
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    
-    min-width: 100%; 
+
+    min-width: 90%;
     min-height: 100%;
+    min-height: 800px;
     overflow: hidden;
     z-index: -2;
+} */
+
+iframe {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  transition: 1s opacity;
 }
 
 #body{
 
     background-color: transparent;
-    padding-top: 173px;
+    padding-top: 125px;
     width:80%;
     min-width:400px;
     max-width:700px;
     margin: 0 auto;
 
+    display: grid;
+    grid-gap: 6%;
+    grid-template-rows: 150px 200px;
+    grid-template-columns: 200px 200px;
     justify-content: center;
     align-content: center;
- 
+
 }
 
 h1{
@@ -33,44 +52,12 @@ h1{
 }
 
 .button{
-    
+
     width: 200px;
     height: 150px;
-    padding-top: 58%;
+    padding-top: 59%;
     background: linear-gradient(transparent 85%, white);
 
     border-bottom: 5px solid black;
-    color:black;   
+    color:black;
 }
-
-
-#music{
-    color: rgb(255,200,0);
-    display:inline;
-    margin:10px;
-}
-#fashion{
-    color:rgb(0,180,100);
-    display:inline;
-    margin:10px;
-}
-#events{
-    color:rgb(220,0,50);
-    display:inline;
-    margin:10px;
-}
-#personal{
-    color: rgb(20,0,200);
-    display:inline;
-    margin:10px
-}
-
-
-
-
-
-
-
-
-
-
